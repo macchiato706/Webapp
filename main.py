@@ -15,7 +15,7 @@ bar = st.progress(0)
 for i in  range(100):
     latest_interaction.text(f'Iteration {i+1}')
     bar.progress(i+1)
-    time.sleep(0.001)
+    time.sleep(0.01)
 
 'Done!'
 
